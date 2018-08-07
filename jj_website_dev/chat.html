@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Jamba Juice
+		</title><!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans:300,300i,400,400i,600,600i,800,800i|Pacifico" rel="stylesheet">
+
+		  <!-- font awesome -->
+		  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+		  crossorigin="anonymous">
+
+		<link href="reset.css" rel="stylesheet" type="text/css">
+		<link href="sung.css" rel="stylesheet" type="text/css">
+		<link href="chat.css" rel="stylesheet" type="text/css">
+		<link href="media.css" rel="stylesheet" type="text/css">
+		<link href="img/favicon.ico" rel="icon" type="image/ico">
+	</head>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 id="exampleModalLongTitle">Mango-a-Go-Go</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+			<p>Our “Go-Go To” from the beginning, Mango-A-Go-Go® deliciously blends heaps of real mangos, pineapple sherbet and passion mango juice to satisfy your sweet tooth while serving up hits of Vitamins A &amp; C.</p>
+			<ul class="ingredients">
+				<li>mango / passion mango juice / pineapple sherbet</li>
+				<li>cals: 300 / 400 / 500</li>
+				<li>(contains: milk)</li>
+			</ul>
+	      </div>
+	      <hr>
+      <div class="centerall pr-5 pl-5">
+        <h2 class="titlebelowimage ">Real Whole Fruit</h2>
+        <div>
+          <ul class="nobullets">
+            <li>
+              <img alt="" src="img/mangos.png">
+              <p class="smallfruit">mangoes</p>
+            </li>
+          </ul>
+          <h2>A Blend Of</h2>
+          <p>Mangoes, Pineapple Sherbet (Contains Milk)</p>
+          <h2>Allergen Information</h2>
+          <p>Milk.</p>
+          <h2>Dietary Information</h2>
+          <p>Non-Gluten</p></div>
+      </div>
+	      <div class="modal-footer">
+	        <button class="chatselect" class="btn btn-primary" data-dismiss="modal" style="margin:0 auto; padding:10px 30px; font-size: 18px;">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal end -->
+
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-5 chat-window-left d-none d-lg-block d-xl-block">
+					\
+					<div class="chat-container">
+						<h1 class="mt-5">
+							Try our new refreshing berries smoothie menus!
+						</h1>
+
+						<p class="pchat mt-3">
+							* Available for a limited time only
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-7 col-sm-12 chat-window-right pt-3">
+
+
+					<div class="talk-bubble-left tri-left round border left-top">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								What would you like to order?
+							</p>
+							<a href="#bubbleJ2"><button class="chatselect" onclick="selectSmoothie()">Smoothies</button></a><br>
+							<a href="#bubbleJ2"><button class="chatselect" onclick="selectSmoothie()">Bowls</button></a><br>
+							<a href="#bubbleJ2"><button class="chatselect" onclick="selectSmoothie()">Shots</button></a><br>
+							<a href="#bubbleJ2"><button class="chatselect" onclick="selectSmoothie()">Juices</button></a><br>
+							<a href="#bubbleJ2"><button class="chatselect" onclick="selectSmoothie()">Tasty Bites</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe1">
+						<div class="talktext">
+							<p>
+								Smoothies!
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ2">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								What type of Smoothie would you like?
+							</p>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Summer</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Cold Brew</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Classic</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Whole Food Nutrition</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">All Fruit</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Fruit & Veggies</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Boosted with a Purpose</button></a><br>
+							<a href="#bubbleJ3"><button class="chatselect" onclick="selectColdBrew()">Creamy Treats</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe2">
+						<div class="talktext">
+							<p>
+								Classic
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ3">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								What would you like to order?
+							</p>
+							<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width:300px;">
+							  <div class="carousel-inner">
+
+							  	<!-- item one -->
+							    <div class="carousel-item active">
+							      <img class="d-block w-100 round" src="img/selection-01.jpg" alt="First Juice">
+									<div class="getinfo"><i class="fas fa-info-circle" data-toggle="modal" data-target="#exampleModalLong"></i></div>
+							      <a href="#bubbleJ4"><button class="chatselect" onclick="selectHorchata()">Very Berry</button></a>
+							    </div>
+
+							  	<!-- item two -->
+							    <div class="carousel-item">
+							      <img class="d-block w-100 round" src="img/selection-02.jpg" alt="Second Juice">
+									<div class="getinfo"><i class="fas fa-info-circle" data-toggle="modal" data-target="#exampleModalLong"></i></div>
+							      <a href="#bubbleJ4"><button class="chatselect" onclick="selectHorchata()">Mango-a-Go-Go</button></a>
+							    </div>
+
+							  	<!-- item three -->
+							    <div class="carousel-item">
+							      <img class="d-block w-100 round" src="img/selection-03.jpg" alt="Third Juice">
+									<div class="getinfo"><i class="fas fa-info-circle" data-toggle="modal" data-target="#exampleModalLong"></i></div>
+							      <a href="#bubbleJ4"><button class="chatselect" onclick="selectHorchata()">Orange Passion</button></a>
+							    </div>
+
+							  </div>
+
+							  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							</div>
+						</div>
+							
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe3">
+						<div class="talktext">
+							<p>
+								Mango-a-Go-Go
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ4">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Do you want a free boost?
+							</p>
+							<a href="#bubbleJ5"><button class="chatselect" onclick="selectFreeBoost()">No</button></a><br>
+							<a href="#bubbleJ5"><button class="chatselect" onclick="selectFreeBoost()">Yes</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe5">
+						<div class="talktext">
+							<p>
+								Yes
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ5">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Please select your free boost
+							</p>
+							<a href="#bubbleJ6"><button class="chatselect" onclick="selectBoostProtein()">Vitamin + Zinc</button></a><br>
+							<a href="#bubbleJ6"><button class="chatselect" onclick="selectBoostProtein()">Whey Protein</button></a><br>
+							<a href="#bubbleJ6"><button class="chatselect" onclick="selectBoostProtein()">Chia Seeds</button></a><br>
+							<a href="#bubbleJ6"><button class="chatselect" onclick="selectBoostProtein()">Collagen</button></a><br>
+							<a href="#bubbleJ6"><button class="chatselect" onclick="selectBoostProtein()">Matcha</button></a><br>
+							<a href="#bubbleJ6"><button class="chatselect" onclick="selectBoostProtein()">Pumpkn Seed</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe6">
+						<div class="talktext">
+							<p>
+								Whey Protein
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ6">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Do you want another free boost?
+							</p>
+							<a href="#bubbleJ7"><button class="chatselect" onclick="selectFreeBoostNo()">No</button></a><br>
+							<a href="#bubbleJ7"><button class="chatselect" onclick="selectFreeBoostNo()">Yes</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe7">
+						<div class="talktext">
+							<p>
+								No
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ7">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Do you want to add yummy extras?
+							</p>
+							<a href="#bubbleJ8"><button class="chatselect" onclick="selectYummyExtras()">No</button></a><br>
+							<a href="#bubbleJ8"><button class="chatselect" onclick="selectYummyExtras()">Yes</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe8">
+						<div class="talktext">
+							<p>
+								No
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ8">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Please select a size
+							</p>
+							<a href="#bubbleJ9"><button class="chatselect" onclick="selectSize()">16 oz</button></a><br>
+							<a href="#bubbleJ9"><button class="chatselect" onclick="selectSize()">24 oz</button></a><br>
+							<a href="#bubbleJ9"><button class="chatselect" onclick="selectSize()">32 oz</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe9">
+						<div class="talktext">
+							<p>
+								32 oz
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ9">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								We found these locations near you, please choose the store you want to pick up your order from.
+							</p>
+							<a href="#bubbleJ10"><button class="chatselect" onclick="selectLocation()">Newport Beach <span>0.3 mi</span></button></a><br>
+							<a href="#bubbleJ10"><button class="chatselect" onclick="selectLocation()">UCI Mall <span>3.5 mi</span></button></a><br>
+							<a href="#bubbleJ10"><button class="chatselect" onclick="selectLocation()">Irvine Spectrum <span>2.6 mi</span></button></a><br>
+							<a href="#bubbleJ10"><button class="chatselect" onclick="selectLocation()">Costa Mesa <span>1.8 mi</span></button></a><br>
+							<a href="#bubbleJ10"><button class="chatselect" onclick="selectLocation()">SOCO <span>2.3 mi</span></button></a><br>
+						</div>
+					</div>
+
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe10">
+						<div class="talktext">
+							<p>
+								Irvine Spectrum
+							</p>
+						</div>
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ10">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Almost done with your order. Below is your summary of order.
+							</p>
+
+							<table style="width:100%">
+								<tr>
+									<th width="70">Qty</th>
+									<th width="150">Item</th>
+									<th>Price</th>
+								</tr>
+
+								<tr>
+									<td>1</td>
+									<td>Classic<br>
+										Mango-a-Go-Go
+									</td>
+									<td>$7.99</td>
+								</tr>
+
+								<tr>
+									<td colspan="3">
+										<hr>
+									</td>
+								</tr>
+
+								<tr>
+									<td>&nbsp;<br></td>
+									<td>Food & Beverage<br>
+										Taxes
+									</td>
+									<td>$7.99<br>
+										$0.62
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="3">
+										<hr>
+									</td>
+								</tr>
+
+								<tr>
+									<td>&nbsp;<br></td>
+									<td>Order Total</td>
+									<td>$8.61</td>
+								</tr>
+
+								<tr>
+									<td colspan="3">
+										<hr>
+										<a href="#bubbleJ11"><button class="chatselect" style="width:100%" onclick="selectCheckout()">Checkout</button></a><br>
+										<a href="#bubbleJ11"><button class="chatselect" style="width:100%" onclick="selectCheckout()">Order More</button></a><br>
+										<a href="#bubbleJ11"><button class="chatselectoutline" style="width:100%" onclick="selectCheckout()">Cancel</button></a><br>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe11">
+						<div class="talktext">
+							<p>
+								Checkout
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ11">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								OK, I just need some quick info from you. Can I have your email?
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe12">
+						<div class="talktext">
+							<p>
+								joekillian@gmail.com
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+ 
+
+ <!--  Bubbl extra -->
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ12">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								Do you want to sign in?
+							</p>
+							<a href="#bubbleJ13x"><button class="chatselect" onclick="continueGuest()">Sign In</button></a><br>
+							<a href="#bubbleJ13x"><button class="chatselect" onclick="continueGuest()">Continue as Guest</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe13">
+						<div class="talktext">
+							<p>
+								Continue as Guest
+							</p>
+						</div>
+					</div>
+
+ <!--  Bubbl extra -->
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ13x">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								How do you want to pay for this order?
+							</p>
+							<a href="#bubbleJ13"><button class="chatselect" onclick="payAtStore()">Pay at the Store</button></a><br>
+							<a href="#bubbleJ13"><button class="chatselect" onclick="payAtStore()">Debit or Credit</button></a><br>
+							<a href="#bubbleJ13"><button class="chatselect" onclick="payAtStore()">Gift Card</button></a><br>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-right tri-right round border-rightchat right-top" id="bubbleMe13x">
+						<div class="talktext">
+							<p>
+								Pay at the Store
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+
+					<div class="talk-bubble-left tri-left round border left-top" id="bubbleJ13">
+						<div class="chatjamba">
+							&nbsp;
+						</div>
+
+						<div class="talktext">
+							<p class="question">
+								By placing this order you agree to our <b>terms</b> of use. Your order should be ready for pick up in about 8-18 minutes. Ready to place the order?
+							</p>
+							<a href="#thankYou"><button class="chatselect" style="width:100%">Place Order</button></a><br>
+							<a href="#thankYou"><button class="chatselectoutline" style="width:100%">Cancel</button></a><br>
+							</p>
+						</div>
+					</div>
+
+					<div class="clear">
+					</div>
+					<!-- This is a dummy chat section -->
+
+					<div class="chat__input">
+						<div class="chat__input__container">
+							<form class="chat__input__form">
+								<label><input placeholder="Type a message..." type="text"></label>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+		      function selectSmoothie() {
+		        var x = document.getElementById("bubbleMe1");
+		        var y = document.getElementById("bubbleJ2");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+
+		      }
+
+		      function selectColdBrew() {
+		        var x = document.getElementById("bubbleMe2");
+		        var y = document.getElementById("bubbleJ3");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectHorchata() {
+		        var x = document.getElementById("bubbleMe3");
+		        var y = document.getElementById("bubbleJ4");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectFreeBoost() {
+		        var x = document.getElementById("bubbleMe5");
+		        var y = document.getElementById("bubbleJ5");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectBoostProtein() {
+		        var x = document.getElementById("bubbleMe6");
+		        var y = document.getElementById("bubbleJ6");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectFreeBoostNo() {
+		        var x = document.getElementById("bubbleMe7");
+		        var y = document.getElementById("bubbleJ7");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectYummyExtras() {
+		        var x = document.getElementById("bubbleMe8");
+		        var y = document.getElementById("bubbleJ8");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectSize() {
+		        var x = document.getElementById("bubbleMe9");
+		        var y = document.getElementById("bubbleJ9");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectLocation() {
+		        var x = document.getElementById("bubbleMe10");
+		        var y = document.getElementById("bubbleJ10");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function selectCheckout() {
+		        var x = document.getElementById("bubbleMe11");
+		        var y = document.getElementById("bubbleJ11");
+		        var w = document.getElementById("bubbleMe12");
+		        var z = document.getElementById("bubbleJ12");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		        if (w.style.display = "none") {
+		            w.style.display = "block";
+		            setTimeout(function(){
+		                w.style.opacity = 100;
+		            }, 700);
+		        }
+		        if (z.style.display = "none") {
+		            z.style.display = "block";
+		            setTimeout(function(){
+		                z.style.opacity = 100;
+		            }, 1000);
+		        }
+		      }
+
+		      function continueGuest() {
+		        var x = document.getElementById("bubbleMe13");
+		        var y = document.getElementById("bubbleJ13x");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		      function payAtStore() {
+		        var x = document.getElementById("bubbleMe13");
+		        var y = document.getElementById("bubbleJ13");
+		        if (x.style.display = "none") {
+		            x.style.display = "block";
+		            setTimeout(function(){
+		                x.style.opacity = 100;
+		            }, 50);
+		        }
+		        if (y.style.display = "none") {
+		            y.style.display = "block";
+		            setTimeout(function(){
+		                y.style.opacity = 100;
+		            }, 500);
+		        }
+		      }
+
+		</script> 
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> 
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</body>
+</html>
