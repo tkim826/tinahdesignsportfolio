@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2004px" height="1367px" viewBox="0 0 2004 1367" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>jambajuice web-based ordering 1.0.1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L71.12,0 C73.7046926,-4.74800333e-16 75.8,2.09530737 75.8,4.68 L75.8,34.8" id="path-1"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-2"></path>
+        <path d="M4.43368421,0 L4.43368421,48.5708108" id="path-3"></path>
+        <path d="M0,0 L98.12,0 C100.704693,-9.65747319e-15 102.8,2.09530737 102.8,4.68 L102.8,13.8" id="path-4"></path>
+        <path d="M0,4.43368421 L78.9275676,4.43368421" id="path-5"></path>
+        <path d="M0,4.43368421 L49.5827027,4.43368421" id="path-6"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-7"></path>
+        <path d="M0,4.43368421 L54.6421622,4.43368421" id="path-8"></path>
+        <path d="M0,4.43368421 L66.7848649,4.43368421" id="path-9"></path>
+        <path d="M4.43368421,0 L4.43368421,66.7848649" id="path-10"></path>
+        <path d="M0,0 L15.12,0 C17.7046926,-4.74800333e-16 19.8,2.09530737 19.8,4.68 L19.8,12.8" id="path-11"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,12.8" id="path-12"></path>
+        <path d="M0,0 L15.12,0 C17.7046926,-4.74800333e-16 19.8,2.09530737 19.8,4.68 L19.8,12.8" id="path-13"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,12.8" id="path-14"></path>
+        <path d="M0,0 L15.12,8.8817842e-16 C17.7046926,4.13378086e-16 19.8,2.09530737 19.8,4.68 L19.8,17.8" id="path-15"></path>
+        <path d="M0,0 L32.12,8.8817842e-16 C34.7046926,4.13378086e-16 36.8,2.09530737 36.8,4.68 L36.8,17.8" id="path-16"></path>
+        <path d="M0,0 L29.12,0 C31.7046926,-4.74800333e-16 33.8,2.09530737 33.8,4.68 L33.8,78.8" id="path-17"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,78.8" id="path-18"></path>
+        <path d="M0,0 L29.12,8.8817842e-16 C31.7046926,4.13378086e-16 33.8,2.09530737 33.8,4.68 L33.8,36.8" id="path-19"></path>
+        <path d="M0,0 L32.12,8.8817842e-16 C34.7046926,4.13378086e-16 36.8,2.09530737 36.8,4.68 L36.8,36.8" id="path-20"></path>
+        <path d="M0,0 L15.12,8.8817842e-16 C17.7046926,4.13378086e-16 19.8,2.09530737 19.8,4.68 L19.8,17.8" id="path-21"></path>
+        <path d="M0,0 L32.12,8.8817842e-16 C34.7046926,4.13378086e-16 36.8,2.09530737 36.8,4.68 L36.8,17.8" id="path-22"></path>
+        <path d="M0,0 L29.12,0 C31.7046926,-4.74800333e-16 33.8,2.09530737 33.8,4.68 L33.8,17.8" id="path-23"></path>
+        <path d="M0,0 L32.12,8.8817842e-16 C34.7046926,4.13378086e-16 36.8,2.09530737 36.8,4.68 L36.8,17.8" id="path-24"></path>
+        <path d="M0,0 L29.12,-8.8817842e-16 C31.7046926,-1.36297875e-15 33.8,2.09530737 33.8,4.68 L33.8,64.8" id="path-25"></path>
+        <path d="M0,0 L32.12,-8.8817842e-16 C34.7046926,-1.36297875e-15 36.8,2.09530737 36.8,4.68 L36.8,64.8" id="path-26"></path>
+        <path d="M0,4.43368421 L58.6897297,4.43368421" id="path-27"></path>
+        <path d="M0,4.43368421 L58.6897297,4.43368421" id="path-28"></path>
+        <path d="M0,4.43368421 L44.5232432,4.43368421" id="path-29"></path>
+        <path d="M0,4.43368421 L44.5232432,4.43368421" id="path-30"></path>
+        <path d="M0,4.43368421 L58.6897297,4.43368421" id="path-31"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,22.8" id="path-32"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,22.8" id="path-33"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,22.8" id="path-34"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,22.8" id="path-35"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,22.8" id="path-36"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,22.8" id="path-37"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-38"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-39"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-40"></path>
+        <path d="M4.43368421,0 L4.43368421,55.6540541" id="path-41"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,22.8" id="path-42"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,22.8" id="path-43"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-44"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-45"></path>
+        <path d="M0,4.43368421 L60.7135135,4.43368421" id="path-46"></path>
+        <path d="M0,0 L587.12,0 C589.704693,-4.74800333e-16 591.8,2.09530737 591.8,4.68 L591.8,175.8" id="path-47"></path>
+        <path d="M14.04,18.72 L14.04,18.72 C16.6246926,18.72 18.72,20.8153074 18.72,23.4" id="path-48"></path>
+        <path d="M0,0 L809.12,0 C811.704693,-4.74800333e-16 813.8,2.09530737 813.8,4.68 L813.8,7.8" id="path-49"></path>
+        <path d="M14.04,18.72 L14.04,18.72 C16.6246926,18.72 18.72,20.8153074 18.72,23.4" id="path-50"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,179.8" id="path-51"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,180.8" id="path-52"></path>
+        <path d="M0,4.43368421 L60.7135135,4.43368421" id="path-53"></path>
+        <path d="M0,4.43368421 L60.7135135,4.43368421" id="path-54"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-55"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-56"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-57"></path>
+        <path d="M0,4.43368421 L56.6659459,4.43368421" id="path-58"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,4.1165361e-15 55.8,2.09530737 55.8,4.68 L55.8,101.8" id="path-59"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,101.8" id="path-60"></path>
+        <path d="M0,4.43368421 L56.6659459,4.43368421" id="path-61"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-62"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-63"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-64"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-65"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-66"></path>
+        <path d="M4.43368421,0 L4.43368421,121.427027" id="path-67"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,17.8" id="path-68"></path>
+        <path d="M0,0 L32.12,8.8817842e-16 C34.7046926,4.13378086e-16 36.8,2.09530737 36.8,4.68 L36.8,17.8" id="path-69"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-70"></path>
+        <path d="M4.43368421,0 L4.43368421,436.125405" id="path-71"></path>
+        <path d="M4.43368421,0 L4.43368421,47.5589189" id="path-72"></path>
+        <path d="M4.43368421,0 L4.43368421,47.5589189" id="path-73"></path>
+        <path d="M0,4.43368421 L56.6659459,4.43368421" id="path-74"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,17.8" id="path-75"></path>
+        <path d="M0,0 L32.12,8.8817842e-16 C34.7046926,4.13378086e-16 36.8,2.09530737 36.8,4.68 L36.8,17.8" id="path-76"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-4.74800333e-16 55.8,2.09530737 55.8,4.68 L55.8,41.8" id="path-77"></path>
+        <path d="M0,0 L32.12,0 C34.7046926,-4.74800333e-16 36.8,2.09530737 36.8,4.68 L36.8,41.8" id="path-78"></path>
+        <path d="M0,0 L68.12,0 C70.7046926,-4.74800333e-16 72.8,2.09530737 72.8,4.68 L72.8,8.8" id="path-79"></path>
+        <path d="M0,0 L68.12,1.77635684e-15 C70.7046926,-7.88111635e-15 72.8,2.09530737 72.8,4.68 L72.8,36.8" id="path-80"></path>
+        <path d="M0,0 L330.12,0 C332.704693,-4.74800333e-16 334.8,2.09530737 334.8,4.68 L334.8,8.8" id="path-81"></path>
+        <path d="M0,0 L331.12,8.8817842e-16 C333.704693,4.13378086e-16 335.8,2.09530737 335.8,4.68 L335.8,36.8" id="path-82"></path>
+        <path d="M54.7892597,3.30925974 L99.6507403,48.1707403 C101.478394,49.9983939 101.478394,52.9616061 99.6507403,54.7892597 L54.7892597,99.6507403 C52.9616061,101.478394 49.9983939,101.478394 48.1707403,99.6507403 L3.30925974,54.7892597 C1.48160605,52.9616061 1.48160605,49.9983939 3.30925974,48.1707403 L48.1707403,3.30925974 C49.9983939,1.48160605 52.9616061,1.48160605 54.7892597,3.30925974 Z" id="path-83"></path>
+        <path d="M0,4.43368421 L95.1178378,4.43368421" id="path-84"></path>
+        <path d="M4.43368421,0 L4.43368421,47.5589189" id="path-85"></path>
+        <path d="M0,4.43368421 L44.5232432,4.43368421" id="path-86"></path>
+        <path d="M0,4.43368421 L44.5232432,4.43368421" id="path-87"></path>
+        <path d="M0,4.43368421 L44.5232432,4.43368421" id="path-88"></path>
+        <path d="M0,4.43368421 L44.5232432,4.43368421" id="path-89"></path>
+        <path d="M0,4.43368421 L60.7135135,4.43368421" id="path-90"></path>
+        <path d="M0,4.43368421 L60.7135135,4.43368421" id="path-91"></path>
+        <path d="M0,0 L51.12,0 C53.7046926,-5.06613676e-15 55.8,2.09530737 55.8,4.68 L55.8,240.8" id="path-92"></path>
+        <path d="M14.04,14.04 L14.04,14.04 C16.6246926,14.04 18.72,16.1353074 18.72,18.72" id="path-93"></path>
+        <path d="M0,0 L301.12,0 C303.704693,-4.74800333e-16 305.8,2.09530737 305.8,4.68 L305.8,18.8" id="path-94"></path>
+        <path d="M0,0 L186.12,0 C188.704693,-4.74800333e-16 190.8,2.09530737 190.8,4.68 L190.8,73.8" id="path-95"></path>
+        <path d="M0,0 L51.12,-8.8817842e-16 C53.7046926,3.22835768e-15 55.8,2.09530737 55.8,4.68 L55.8,158.8" id="path-96"></path>
+        <path d="M14.04,14.04 L14.04,14.04 C16.6246926,14.04 18.72,16.1353074 18.72,18.72" id="path-97"></path>
+        <path d="M0,4.43368421 L114.343784,4.43368421" id="path-98"></path>
+    </defs>
+    <g id="jambajuice-web-based-ordering-1.0.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="2004" height="1367"></rect>
+        <g id="Group-5" transform="translate(535.680000, 1058.400000)">
+            <g id="section-container" transform="translate(4.680000, 20.592000)" fill="#FFFFFF" stroke="#979797" stroke-opacity="0.1" stroke-width="6.552">
+                <rect id="Rectangle-7" x="3.276" y="3.276" width="461.448" height="280.448"></rect>
+            </g>
+            <g id="Flow-Header">
+                <rect id="bg" fill="#FFFFFF" x="0" y="0" width="431.496" height="47.736"></rect>
+                <text id="Section-E---Payment" font-family=".SFNSDisplay, .SF NS Display" font-size="21.528" font-weight="normal" fill="#00B2C1">
+                    <tspan x="8.424" y="22.872">Section</tspan>
+                    <tspan x="78.463582" y="22.872" font-size="28.08"> E - Payment &amp; Confirmation</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(23.400000, 104.832000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="21.8776289" y="14.68">Enter payment </tspan>
+                    <tspan x="27.7893281" y="27.68">information</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(353.808000, 104.832000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="15.4060664" y="14.68">Re-enter payment </tspan>
+                    <tspan x="25.579582" y="27.68">information?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-" transform="translate(366.444000, 81.068882) scale(-1, -1) translate(-366.444000, -81.068882) translate(328.536000, 63.648000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(37.800000, 17.300000) scale(-1, -1) translate(-37.800000, -17.300000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-1"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(-90.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/content/version" transform="translate(56.160000, 95.472000)">
+                <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="12.311217" y="10">E-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/container" transform="translate(173.160000, 226.512000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="54.96" rx="1.872"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="40.4445234" y="0.0493203883">Order </tspan>
+                    <tspan x="24.9123164" y="13.0493204">Confirmation </tspan>
+                    <tspan x="41.3700117" y="26.0493204">Page</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(175.032000, 76.752000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-2"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="14.4266484" y="33.4">Did it go through?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(177.840000, 179.712000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-3"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 47.600000) rotate(-270.000000) translate(-46.307368, -47.600000) translate(27.587368, 28.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(205.920000, 181.584000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-" transform="translate(277.992000, 69.992504) scale(1, -1) translate(-277.992000, -69.992504) translate(226.512000, 63.233008)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(51.300000, 6.800000) scale(-1, -1) translate(-51.300000, -6.800000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-4"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(0.000000, 0.000000) rotate(-90.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(276.120000, 118.872000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-5"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(58.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(294.840000, 109.512000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(126.360000, 117.936000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-6"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-6"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(29.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+        </g>
+        <g id="Group-13" transform="translate(47.520000, 1055.520000)">
+            <g id="section-container" transform="translate(0.000000, 23.400000)" fill="#FFFFFF" stroke="#979797" stroke-opacity="0.1" stroke-width="6.552">
+                <rect id="Rectangle-7" x="3.276" y="3.276" width="461.448" height="280.448"></rect>
+            </g>
+            <g id="Flow-Header">
+                <rect id="bg" fill="#FFFFFF" x="0" y="0" width="319.176" height="47.736"></rect>
+                <text id="Section-D---Account" font-family=".SFNSDisplay, .SF NS Display" font-size="21.528" font-weight="normal" fill="#00B2C1">
+                    <tspan x="2.808" y="22.872">Section</tspan>
+                    <tspan x="72.847582" y="22.872" font-size="28.08"> D - Account Log In</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(169.416000, 96.408000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="14.4417305" y="14.68">Continue as guest</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(343.512000, 96.408000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="16.263" y="14.68">Go to Section E-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(13.104000, 236.808000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="14.5537031" y="14.68">Go to sign in page</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(13.104000, 68.328000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-7"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="11.5313555" y="33.4">Sign in to account?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/version" transform="translate(45.864000, 58.968000)">
+                <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="11.902174" y="10">D-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(116.064000, 113.817600)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.246316)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-8"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-8"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(34.880000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 4.433684) rotate(180.000000) translate(-0.000000, -4.433684) translate(-18.720000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(275.184000, 114.192000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.246316)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-9"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-9"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.880000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 4.433684) rotate(180.000000) translate(-0.000000, -4.433684) translate(-18.720000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(17.784000, 171.288000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-10"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-10"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 65.600000) rotate(-270.000000) translate(-46.307368, -65.600000) translate(27.587368, 46.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(122.616000, 101.088000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(45.864000, 195.624000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+        </g>
+        <g id="Flow-Header" transform="translate(0.000000, -7.200000)" fill="#000000" font-weight="normal">
+            <text id="v-1.0.2" font-family="OpenSans-Regular, Open Sans" font-size="18.72" letter-spacing="1.33714242">
+                <tspan x="0" y="68.672">V 1.0.2</tspan>
+            </text>
+            <text id="Jamba-Juice-User-Flo" font-family=".SFNSDisplay, .SF NS Display" font-size="37.44">
+                <tspan x="0" y="36">Jamba Juice User Flow / EZ web-based ordering</tspan>
+            </text>
+        </g>
+        <g id="Group-7" transform="translate(48.520000, 86.400000)">
+            <g id="section-container" transform="translate(0.152000, 25.704000)" fill="#FFFFFF" stroke="#979797" stroke-opacity="0.1" stroke-width="6.552">
+                <rect id="Rectangle-7" x="3.276" y="3.276" width="952.448" height="433.448"></rect>
+            </g>
+            <g id="Flow-Header" transform="translate(0.152000, 0.432000)">
+                <rect id="bg" fill="#FFFFFF" x="0" y="7.488" width="337.896" height="47.736"></rect>
+                <text id="Section-A---Ways-to" font-family=".SFNSDisplay, .SF NS Display" font-size="21.528" font-weight="normal" fill="#00B2C1">
+                    <tspan x="2.808" y="21">Section</tspan>
+                    <tspan x="72.847582" y="21" font-size="28.08"> A - Ways to Order</tspan>
+                </text>
+            </g>
+            <g id="section-A" transform="translate(54.240000, 73.440000)">
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(291.096000, 112.320000) scale(1, -1) translate(-291.096000, -112.320000) translate(262.080000, 99.216000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-11"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-11"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(38.880000, 19.200000) scale(-1, -1) translate(-38.880000, -19.200000) translate(20.160000, 12.800000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-12"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-12"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, 7.169362)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(421.200000, 99.216000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-13"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-13"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(38.880000, 19.200000) scale(-1, -1) translate(-38.880000, -19.200000) translate(20.160000, 12.800000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-14"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-14"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, 7.169362)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(450.216000, 144.144000) scale(1, -1) translate(-450.216000, -144.144000) translate(421.200000, 125.424000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-15"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-15"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(38.880000, 27.450000) scale(-1, -1) translate(-38.880000, -27.450000) translate(20.160000, 18.300000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-16"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-16"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, 18.122553)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(87.048000, 163.800000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-17"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-17"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(52.880000, 118.950000) scale(-1, -1) translate(-52.880000, -118.950000) translate(34.160000, 79.300000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-18"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-18"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(52.880000, 139.603404)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(87.048000, 163.800000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-19"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-19"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(52.880000, 55.950000) scale(-1, -1) translate(-52.880000, -55.950000) translate(34.160000, 37.300000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-20"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-20"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(52.880000, 55.960851)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(262.080000, 125.424000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-21"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-21"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(38.880000, 27.450000) scale(-1, -1) translate(-38.880000, -27.450000) translate(20.160000, 18.300000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-22"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-22"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, 18.122553)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/content/container" transform="translate(0.000000, 135.720000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="85.96" height="63.96" rx="1.872"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="15.0358356" y="4.54757282">Website main </tspan>
+                        <tspan x="33.0977106" y="17.5475728">page</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(159.120000, 215.280000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="11.4207539" y="14.68">Order featured item</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(159.120000, 104.832000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="25.1294062" y="14.68">Find location</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(318.240000, 73.944000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="21.3109102" y="14.68">Manually enter </tspan>
+                        <tspan x="18.7035469" y="27.68">desired location</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(159.120000, 299.520000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="22.1655586" y="14.68">Download app</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(318.240000, 139.464000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="8.88194531" y="14.68">Find closest location </tspan>
+                        <tspan x="40.0560469" y="27.68">to me</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(123.084000, 145.080000) scale(1, -1) translate(-123.084000, -145.080000) translate(87.048000, 126.360000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-23"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-23"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(52.880000, 27.450000) scale(-1, -1) translate(-52.880000, -27.450000) translate(34.160000, 18.300000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-24"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-24"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(52.880000, 18.122553)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(123.084000, 98.280000) scale(1, -1) translate(-123.084000, -98.280000) translate(87.048000, 32.760000)">
+                    <g id="F-L-O-W-/z/path/2-solid/original">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-25"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-25"></use>
+                        </g>
+                    </g>
+                    <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(52.880000, 97.950000) scale(-1, -1) translate(-52.880000, -97.950000) translate(34.160000, 65.300000)">
+                        <g id="Path-6">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-26"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-26"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(52.880000, 111.722553)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(159.120000, 9.360000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="26.7015937" y="14.68">Order online</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(191.880000, 0.000000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="11.9181701" y="10">A-1</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(23.400000, 126.360000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="11.9181701" y="10">A-0</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(191.880000, 95.472000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="11.9181701" y="10">A-2</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(191.880000, 205.920000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="11.9181701" y="10">A-3</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(191.880000, 290.160000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="11.9181701" y="10">A-4</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/actiontogo" transform="translate(318.240000, 299.520000)">
+                    <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="19.5810469" y="14.68">Go to App Page</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(479.232000, 102.024000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="17.5198359" y="14.68">Select a location </tspan>
+                        <tspan x="31.4158711" y="27.68">(from list)</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/action" transform="translate(626.184000, 102.024000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="10.588957" y="14.68">Order from selected </tspan>
+                        <tspan x="35.232082" y="27.68">location</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/actiontogo" transform="translate(778.752000, 102.024000)">
+                    <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="16.0093477" y="14.68">Go to Section B-1</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/actiontogo" transform="translate(318.240000, 9.360000)">
+                    <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="16.0093477" y="14.68">Go to Section B-1</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/org/-→" transform="translate(262.080000, 313.560000)">
+                    <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                        <g id="Path">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-27"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-27"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/content/actiontogo" transform="translate(318.240000, 215.280000)">
+                    <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="16.0093477" y="14.68">Go to Section B-2</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/org/-→" transform="translate(262.080000, 229.320000)">
+                    <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                        <g id="Path">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-28"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-28"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→" transform="translate(582.192000, 120.744000)">
+                    <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.246316)">
+                        <g id="Path">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-29"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-29"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(24.880000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 4.433684) rotate(180.000000) translate(-0.000000, -4.433684) translate(-18.720000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→" transform="translate(729.144000, 120.744000)">
+                    <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.246316)">
+                        <g id="Path">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-30"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-30"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(24.880000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 4.433684) rotate(180.000000) translate(-0.000000, -4.433684) translate(-18.720000, -14.286316)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/org/-→" transform="translate(262.080000, 23.400000)">
+                    <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                        <g id="Path">
+                            <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-31"></use>
+                            <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-31"></use>
+                        </g>
+                    </g>
+                    <g id="flowchart/icon/arrow" transform="translate(38.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                        <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                    </g>
+                    <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                        <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                        <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Group-12" transform="translate(48.960000, 646.560000)">
+            <g id="section-container" transform="translate(0.000000, 12.168000)" fill="#FFFFFF" stroke="#979797" stroke-opacity="0.1" stroke-width="6.552">
+                <rect id="Rectangle-7" x="3.276" y="3.276" width="952.448" height="300.448"></rect>
+            </g>
+            <g id="Flow-Header">
+                <rect id="bg" fill="#FFFFFF" x="0" y="7.488" width="309.816" height="47.736"></rect>
+                <text id="Section-C---Order-Lo" font-family=".SFNSDisplay, .SF NS Display" font-size="21.528" font-weight="normal" fill="#00B2C1">
+                    <tspan x="2.808" y="21">Section</tspan>
+                    <tspan x="72.847582" y="21" font-size="28.08"> C - Order Location</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(370.656000, 83.304000) scale(1, -1) translate(-370.656000, -83.304000) translate(323.856000, 59.904000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-32"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-32"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 34.950000) scale(-1, -1) translate(-74.880000, -34.950000) translate(56.160000, 23.300000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-33"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-33"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 28.080000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(567.216000, 130.104000) scale(1, -1) translate(-567.216000, -130.104000) translate(520.416000, 106.704000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-34"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-34"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 34.950000) scale(-1, -1) translate(-74.880000, -34.950000) translate(56.160000, 23.300000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-35"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-35"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 28.080000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(520.416000, 59.904000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-36"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-36"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 34.950000) scale(-1, -1) translate(-74.880000, -34.950000) translate(56.160000, 23.300000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-37"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-37"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 28.080000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(24.336000, 83.304000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="21.2240742" y="14.68">Select location</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(417.456000, 36.504000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="21.3109102" y="14.68">Manually enter </tspan>
+                    <tspan x="18.7035469" y="27.68">desired location</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(417.456000, 130.104000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="8.88194531" y="14.68">Find closest location </tspan>
+                    <tspan x="40.0560469" y="27.68">to me</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/version" transform="translate(57.096000, 73.944000)">
+                <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="11.9250256" y="10">C-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(810.576000, 83.304000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="15.853957" y="14.68">Go to Section D-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(220.896000, 213.408000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="15.853957" y="14.68">Go to Section D-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(614.016000, 83.304000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="17.5198359" y="14.68">Select a location </tspan>
+                    <tspan x="31.4158711" y="27.68">(from list)</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(716.976000, 97.344000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-38"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-38"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(127.296000, 97.344000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-39"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-39"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(220.896000, 55.224000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-40"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-40"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="12.5688164" y="33.4">Is the location pre-</tspan>
+                    <tspan x="31.1974102" y="46.4">selected?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(225.576000, 158.184000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-41"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-41"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 54.600000) rotate(-270.000000) translate(-46.307368, -54.600000) translate(27.587368, 35.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(323.856000, 106.704000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-42"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-42"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 34.950000) scale(-1, -1) translate(-74.880000, -34.950000) translate(56.160000, 23.300000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-43"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-43"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 28.080000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(253.656000, 165.672000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(342.576000, 87.984000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+        </g>
+        <g id="Group-11" transform="translate(1045.440000, 86.400000)">
+            <g id="section-container" transform="translate(0.000000, 24.120000)" fill="#FFFFFF" stroke="#979797" stroke-opacity="0.1" stroke-width="6.552">
+                <rect id="Rectangle-7" x="3.276" y="3.276" width="952.448" height="1249.448"></rect>
+            </g>
+            <g id="Group-6" transform="translate(173.160000, 81.216000)">
+                <path d="M0,4.68897532 C0,2.09932576 2.09631971,0 4.68806318,0 L125.415937,0 C128.005083,0 130.104,2.0908737 130.104,4.68897532 L130.104,191.871025 C130.104,194.460674 128.00768,196.56 125.415937,196.56 L4.68806318,196.56 C2.09891738,196.56 0,194.469126 0,191.871025 L0,4.68897532 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Summer-Cold-Brew-Cla" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">Summer</tspan>
+                    <tspan x="18.72" y="42.696">Cold Brew</tspan>
+                    <tspan x="18.72" y="61.416">Classic</tspan>
+                    <tspan x="18.72" y="80.136">Whole Food Nutrition</tspan>
+                    <tspan x="18.72" y="98.856">All Fruit</tspan>
+                    <tspan x="18.72" y="117.576">Protein</tspan>
+                    <tspan x="18.72" y="136.296">Fruit &amp; Veggies</tspan>
+                    <tspan x="18.72" y="155.016">Boosted with a Purpose</tspan>
+                    <tspan x="18.72" y="173.736">Creamy Treats</tspan>
+                </text>
+            </g>
+            <g id="Group-8" transform="translate(194.688000, 303.984000)">
+                <path d="M0,4.6759852 C0,2.09350988 2.09408241,0 4.68566194,0 L90.7863381,0 C93.3741577,0 95.472,2.09945501 95.472,4.6759852 L95.472,154.444015 C95.472,157.02649 93.3779176,159.12 90.7863381,159.12 L4.68566194,159.12 C2.09784231,159.12 0,157.020545 0,154.444015 L0,4.6759852 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Vitamin-+-Zinc-Soy-P" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">Vitamin + Zinc</tspan>
+                    <tspan x="18.72" y="42.696">Soy Protein</tspan>
+                    <tspan x="18.72" y="61.416">Whey Protein</tspan>
+                    <tspan x="18.72" y="80.136">Chia Seeds</tspan>
+                    <tspan x="18.72" y="98.856">Collagen</tspan>
+                    <tspan x="18.72" y="117.576">Matcha</tspan>
+                    <tspan x="18.72" y="136.296">Pumpkn Seed</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(516.672000, 303.984000)">
+                <path d="M0,4.6759852 C0,2.09350988 2.09408241,0 4.68566194,0 L90.7863381,0 C93.3741577,0 95.472,2.09945501 95.472,4.6759852 L95.472,154.444015 C95.472,157.02649 93.3779176,159.12 90.7863381,159.12 L4.68566194,159.12 C2.09784231,159.12 0,157.020545 0,154.444015 L0,4.6759852 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Vitamin-+-Zinc-Soy-P" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">Vitamin + Zinc</tspan>
+                    <tspan x="18.72" y="42.696">Soy Protein</tspan>
+                    <tspan x="18.72" y="61.416">Whey Protein</tspan>
+                    <tspan x="18.72" y="80.136">Chia Seeds</tspan>
+                    <tspan x="18.72" y="98.856">Collagen</tspan>
+                    <tspan x="18.72" y="117.576">Matcha</tspan>
+                    <tspan x="18.72" y="136.296">Pumpkn Seed</tspan>
+                </text>
+            </g>
+            <g id="Group-9" transform="translate(838.656000, 303.984000)">
+                <path d="M0,4.6759852 C0,2.09350988 2.09408241,0 4.68566194,0 L90.7863381,0 C93.3741577,0 95.472,2.09945501 95.472,4.6759852 L95.472,154.444015 C95.472,157.02649 93.3779176,159.12 90.7863381,159.12 L4.68566194,159.12 C2.09784231,159.12 0,157.020545 0,154.444015 L0,4.6759852 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Vitamin-+-Zinc-Soy-P" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">Vitamin + Zinc</tspan>
+                    <tspan x="18.72" y="42.696">Soy Protein</tspan>
+                    <tspan x="18.72" y="61.416">Whey Protein</tspan>
+                    <tspan x="18.72" y="80.136">Chia Seeds</tspan>
+                    <tspan x="18.72" y="98.856">Collagen</tspan>
+                    <tspan x="18.72" y="117.576">Matcha</tspan>
+                    <tspan x="18.72" y="136.296">Pumpkn Seed</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(350.064000, 328.320000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-44"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-44"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="16.4467266" y="33.4">Select additional </tspan>
+                    <tspan x="27.5708672" y="46.4">free boost?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(672.984000, 328.320000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-45"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-45"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="16.4467266" y="33.4">Select additional </tspan>
+                    <tspan x="36.8965898" y="46.4">boost?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(449.280000, 371.376000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-46"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-46"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(40.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(456.768000, 362.016000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="17.7081081" r="8.424"></circle>
+                <path d="M23.0788156,18.6397304 L23.0788156,18.6397304 C23.0788156,19.1566689 22.6597541,19.5757304 22.1428156,19.5757304 L15.5908156,19.5757304 C15.0738771,19.5757304 14.6548156,19.1566689 14.6548156,18.6397304 L14.6548156,15.2834343 C14.6548156,14.7664957 15.0738771,14.3474343 15.5908156,14.3474343 L15.5908156,14.3474343 C16.1077541,14.3474343 16.5268156,14.7664957 16.5268156,15.2834343 L16.5268156,17.2357304 C16.5268156,17.4941996 16.7363463,17.7037304 16.9948156,17.7037304 L22.1428156,17.7037304 C22.6597541,17.7037304 23.0788156,18.1227918 23.0788156,18.6397304 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 16.961582) rotate(-45.000000) translate(-18.866816, -16.961582) "></path>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-" transform="translate(367.848000, 942.336000) scale(-1, 1) translate(-367.848000, -942.336000) translate(72.072000, 854.352000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(295.800000, 87.800000) scale(-1, -1) translate(-295.800000, -87.800000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-47"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-47"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/endcurve2" transform="translate(572.880000, 156.880000)">
+                    <rect id="Rectangle-23" fill="#FFFFFF" fill-rule="evenodd" x="14.04" y="16.848" width="6.552" height="6.552"></rect>
+                    <g id="Rectangle-22">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-48"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-48"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(-90.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-" transform="translate(479.232000, 475.740000) scale(-1, 1) translate(-479.232000, -475.740000) translate(72.072000, 471.528000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(406.800000, 3.800000) scale(-1, -1) translate(-406.800000, -3.800000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-49"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-49"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/endcurve2" transform="translate(794.880000, -11.120000)">
+                    <rect id="Rectangle-23" fill="#FFFFFF" fill-rule="evenodd" x="14.04" y="16.848" width="6.552" height="6.552"></rect>
+                    <g id="Rectangle-22">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-50"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-50"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(-90.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="Group" transform="translate(351.936000, 159.840000)">
+                <path d="M0,4.68574272 C0,2.09787847 2.10089246,0 4.67869324,0 L92.6653068,0 C95.2492777,0 97.344,2.08739207 97.344,4.68574272 L97.344,60.8342573 C97.344,63.4221215 95.2431075,65.52 92.6653068,65.52 L4.67869324,65.52 C2.09472232,65.52 0,63.4326079 0,60.8342573 L0,4.68574272 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="La-Vida-Mocha-Lotta" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">La Vida </tspan>
+                    <tspan x="18.72" y="42.696">Mocha</tspan>
+                    <tspan x="18.72" y="61.416">Lotta </tspan>
+                    <tspan x="18.72" y="80.136">Horchata</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(216.216000, 786.960000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="27.8" rx="13.9"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="20.6299336" y="5.22042553">Fruit &amp; Veggies</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(216.216000, 946.080000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="27.8" rx="13.9"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="38.9888789" y="5.22042553">Extras</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(19.656000, 1081.800000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="25.8880781" y="14.68">Select a size</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(578.448000, 1081.800000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="11.2265156" y="14.68">Make another order</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(775.008000, 1081.800000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="16.0093477" y="14.68">Go to Section B-1</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(381.888000, 1195.056000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="15.8768086" y="14.68">Go to Section C-1</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(219.024000, 1063.080000)">
+                <path d="M0,4.67931503 C0,2.0950007 2.09865617,0 4.67305687,0 L61.7829431,0 C64.3638012,0 66.456,2.10336566 66.456,4.67931503 L66.456,79.560685 C66.456,82.1449993 64.3573438,84.24 61.7829431,84.24 L4.67305687,84.24 C2.09219883,84.24 0,82.1366343 0,79.560685 L0,4.67931503 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="16-oz-24-oz-32-oz" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">16 oz</tspan>
+                    <tspan x="18.72" y="42.696">24 oz</tspan>
+                    <tspan x="18.72" y="61.416">32 oz</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(377.208000, 722.376000)">
+                <path d="M0,4.67135925 C0,2.09143878 2.10243228,0 4.67556405,0 L117.940436,0 C120.522679,0 122.616,2.09366911 122.616,4.67135925 L122.616,135.728641 C122.616,138.308561 120.513568,140.4 117.940436,140.4 L4.67556405,140.4 C2.09332133,140.4 0,138.306331 0,135.728641 L0,4.67135925 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Mango-Banana-Blueber" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="28.08" y="23.976">Mango</tspan>
+                    <tspan x="28.08" y="42.696">Banana</tspan>
+                    <tspan x="28.08" y="61.416">Blueberries</tspan>
+                    <tspan x="28.08" y="80.136">Kale</tspan>
+                    <tspan x="28.08" y="98.856">Strawberries</tspan>
+                    <tspan x="28.08" y="117.576">Peach Slices</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(377.208000, 878.688000)">
+                <path d="M0,4.67135925 C0,2.09143878 2.10243228,0 4.67556405,0 L117.940436,0 C120.522679,0 122.616,2.09366911 122.616,4.67135925 L122.616,135.728641 C122.616,138.308561 120.513568,140.4 117.940436,140.4 L4.67556405,140.4 C2.09332133,140.4 0,138.306331 0,135.728641 L0,4.67135925 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Frozen-Yogurt-Lime-S" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">Frozen Yogurt</tspan>
+                    <tspan x="18.72" y="42.696">Lime Sherbet</tspan>
+                    <tspan x="18.72" y="61.416">Orange Sherbet</tspan>
+                    <tspan x="18.72" y="80.136">Pineapple Sherbet</tspan>
+                    <tspan x="18.72" y="98.856">Raspberry Sherbet</tspan>
+                    <tspan x="18.72" y="117.576">Chia Topper</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(377.208000, 492.120000)">
+                <path d="M0,4.67138968 C0,2.0914524 2.10243228,0 4.67556405,0 L117.940436,0 C120.522679,0 122.616,2.09604785 122.616,4.67138968 L122.616,210.60861 C122.616,213.188548 120.513568,215.28 117.940436,215.28 L4.67556405,215.28 C2.09332133,215.28 0,213.183952 0,210.60861 L0,4.67138968 Z" id="Combined-Shape" stroke="#44C512" stroke-width="0.936" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.871999931335449,3.743999862670898"></path>
+                <text id="Acai-Juice-Apple-Jui" font-family=".SFNSText, .SF NS Text" font-size="9.36" font-weight="normal" line-spacing="18.72" fill="#000000">
+                    <tspan x="18.72" y="23.976">Acai Juice</tspan>
+                    <tspan x="18.72" y="42.696">Apple Juice</tspan>
+                    <tspan x="18.72" y="61.416">Lemonade</tspan>
+                    <tspan x="18.72" y="80.136">Mixed Berry Juice</tspan>
+                    <tspan x="18.72" y="98.856">Orange Juice</tspan>
+                    <tspan x="18.72" y="117.576">Passion/Mango Blend</tspan>
+                    <tspan x="18.72" y="136.296">Peach Juice</tspan>
+                    <tspan x="18.72" y="155.016">Pineapple Juice</tspan>
+                    <tspan x="18.72" y="173.736">Pomegranate Juice</tspan>
+                    <tspan x="18.72" y="192.456">Red Vegetable Juice</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/actiontogo" transform="translate(805.896000, 778.536000)">
+                <path d="M0,23.4 C0,10.4765369 10.474809,0 23.3954043,0 L79.5645957,0 C92.4855207,0 102.96,10.4736953 102.96,23.4 L102.96,23.4 C102.96,36.3234631 92.485191,46.8 79.5645957,46.8 L23.3954043,46.8 C10.4744793,46.8 0,36.3263047 0,23.4 L0,23.4 Z" id="Combined-Shape" stroke="#59F5FF" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.744,5.616"></path>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="29.4163594" y="14.68">Repeat B-3 </tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(122.616000, 597.888000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-51"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-51"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 271.200000) scale(-1, -1) translate(-74.880000, -271.200000) translate(56.160000, 180.800000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-52"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-52"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 341.739574)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(131.976000, 371.376000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-53"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-53"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(40.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(288.288000, 371.376000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-54"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-54"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(40.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(122.616000, 1095.840000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-55"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-55"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(681.408000, 1095.840000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-56"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-56"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(286.416000, 1095.840000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-57"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-57"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(319.176000, 791.640000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-58"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-58"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(36.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(122.616000, 597.888000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-59"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-59"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 152.700000) scale(-1, -1) translate(-74.880000, -152.700000) translate(56.160000, 101.800000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-60"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-60"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 184.411915)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(319.176000, 951.696000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-61"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-61"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(36.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(126.360000, 594.144000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(612.144000, 750.456000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-62"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-62"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="20.9644805" y="33.4">Add additional </tspan>
+                    <tspan x="19.6528008" y="46.4">yummy extras?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(494.208000, 138.312000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-63"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-63"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="13.5537188" y="33.4">Add or show info?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(216.216000, 548.280000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="27.8" rx="13.9"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="38.3079023" y="5.22042553">Juices</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(838.656000, 100.872000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-64"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-64"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="17.4544805" y="33.4">Add or go back? </tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(19.656000, 329.256000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-65"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-65"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="13.5628594" y="33.4">Select free boost?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(19.656000, 547.344000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-66"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-66"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="21.791707" y="33.4">Select yummy </tspan>
+                    <tspan x="36.0236602" y="46.4">extras?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(25.272000, 432.216000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-67"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-67"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 119.600000) rotate(-270.000000) translate(-46.307368, -119.600000) translate(27.587368, 100.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(169.416000, 579.168000) scale(1, -1) translate(-169.416000, -579.168000) translate(122.616000, 560.448000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-68"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-68"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 27.450000) scale(-1, -1) translate(-74.880000, -27.450000) translate(56.160000, 18.300000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-69"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-69"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 18.122553)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(712.296000, 792.576000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-70"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-70"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(27.144000, 650.304000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(40.149474, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-71"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-71"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(44.829474, 430.600000) rotate(-270.000000) translate(-44.829474, -430.600000) translate(26.109474, 411.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(44.829474, 0.000000) rotate(-90.000000) translate(-44.829474, -0.000000) translate(26.109474, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(353.808000, 432.216000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-72"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-72"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 46.600000) rotate(-270.000000) translate(-46.307368, -46.600000) translate(27.587368, 27.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(676.728000, 432.216000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-73"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-73"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 46.600000) rotate(-270.000000) translate(-46.307368, -46.600000) translate(27.587368, 27.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(53.352000, 437.832000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(381.888000, 437.832000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(704.808000, 437.832000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(319.176000, 552.960000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-74"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-74"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(36.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(53.352000, 698.040000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(643.968000, 973.224000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(643.968000, 171.072000) scale(1, -1) translate(-643.968000, -171.072000) translate(597.168000, 152.352000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-75"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-75"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 27.450000) scale(-1, -1) translate(-74.880000, -27.450000) translate(56.160000, 18.300000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-76"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-76"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 18.122553)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(734.760000, 783.216000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓-→-/-%---Fix" transform="translate(597.168000, 189.792000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-77"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-77"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(74.880000, 62.700000) scale(-1, -1) translate(-74.880000, -62.700000) translate(56.160000, 41.800000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-78"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-78"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, 64.922553)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-↓-/-%---Fix" transform="translate(816.660000, 232.848000) scale(-1, 1) translate(-816.660000, -232.848000) translate(743.184000, 209.448000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(36.593617, 4.580000) scale(-1, -1) translate(-36.593617, -4.580000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-79"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-79"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(73.300000, 9.160000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-80"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-80"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(146.600000, 46.800000) rotate(-270.000000) translate(-146.600000, -46.800000) translate(127.880000, 28.080000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-↓-/-%---Fix" transform="translate(408.096000, 311.472000) scale(-1, 1) translate(-408.096000, -311.472000) translate(72.072000, 288.072000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(167.285106, 4.580000) scale(-1, -1) translate(-167.285106, -4.580000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-81"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-81"></use>
+                    </g>
+                </g>
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(335.800000, 9.160000)">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-82"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-82"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(671.600000, 46.800000) rotate(-270.000000) translate(-671.600000, -46.800000) translate(652.880000, 28.080000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="Flow-Header">
+                <rect id="bg" fill="#FFFFFF" x="0" y="7.488" width="328.536" height="47.736"></rect>
+                <text id="Section-B---Order-Se" font-family=".SFNSDisplay, .SF NS Display" font-size="21.528" font-weight="normal" fill="#00B2C1">
+                    <tspan x="2.808" y="21">Section</tspan>
+                    <tspan x="72.847582" y="21" font-size="28.08"> B - Order Selection</tspan>
+                </text>
+            </g>
+            <g id="Stacked-Group" transform="translate(23.400000, 156.096000)">
+                <g id="F-L-O-W-/content/action" transform="translate(0.000000, 9.360000)">
+                    <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="46.8" rx="23.4"></rect>
+                    <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                        <tspan x="29.5968867" y="14.68">Smoothies</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(32.760000, 0.000000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="12.0575646" y="10">B-1</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Stacked-Group" transform="translate(54.288000, 301.176000)">
+                <g id="F-L-O-W-/content/version">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="12.0575646" y="10">B-2</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(0.000000, 221.832000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="12.0575646" y="10">B-3</tspan>
+                    </text>
+                </g>
+                <g id="F-L-O-W-/content/version" transform="translate(0.000000, 745.056000)">
+                    <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.872" fill="#FF9800" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" x="-0.936" y="-0.936" width="39.312" height="20.592" rx="10.296"></rect>
+                    <text id="x.x.x" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="12.0575646" y="10">B-4</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="F-L-O-W-/content/question" transform="translate(380.952000, 1053.720000)">
+                <g id="Polygon">
+                    <use stroke="#FFFFFF" stroke-width="6.552" fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-83"></use>
+                    <use stroke="#777777" stroke-width="1.872" xlink:href="#path-83"></use>
+                </g>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="16.6226836" y="33.4">Complete order?</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(690.768000, 138.312000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="27.8" rx="13.9"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="31.2376289" y="5.22042553">Show info</tspan>
+                </text>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(135.720000, 362.016000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+            <g id="F-L-O-W-/content/action" transform="translate(690.768000, 259.992000)">
+                <rect id="Combined-Shape" stroke="#777777" stroke-width="1.872" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="102.96" height="27.8" rx="13.9"></rect>
+                <text id="message" font-family="Roboto-Regular, Roboto" font-size="9.36" font-weight="normal" fill="#000000">
+                    <tspan x="43.6163203" y="5.22042553">Add</tspan>
+                </text>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(483.912000, 1096.776000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-84"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-84"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(74.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/no" transform="translate(502.632000, 1087.416000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#FF0D00" cx="18.72" cy="18.72" r="8.424"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="17.784" y="14.976" width="1.872" height="7.488" rx="0.936"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(18.720000, 18.720000) rotate(-45.000000) translate(-18.720000, -18.720000) " x="14.976" y="17.784" width="7.488" height="1.872" rx="0.936"></rect>
+            </g>
+            <g id="F-L-O-W-/org/-↓" transform="translate(385.632000, 1152.000000)">
+                <g id="F-L-O-W-/z/path/1-solid-vertical/original" transform="translate(41.627368, 0.000000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-85"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-85"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(46.307368, 46.600000) rotate(-270.000000) translate(-46.307368, -46.600000) translate(27.587368, 27.880000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(46.307368, 0.000000) rotate(-90.000000) translate(-46.307368, -0.000000) translate(27.587368, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(413.712000, 1157.616000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="18.72" r="8.424"></circle>
+                <path d="M23.0788156,19.6089636 L23.0788156,19.6089636 C23.0788156,20.1259022 22.6597541,20.5449636 22.1428156,20.5449636 L15.5908156,20.5449636 C15.0738771,20.5449636 14.6548156,20.1259022 14.6548156,19.6089636 L14.6548156,16.2526675 C14.6548156,15.735729 15.0738771,15.3166675 15.5908156,15.3166675 L15.5908156,15.3166675 C16.1077541,15.3166675 16.5268156,15.735729 16.5268156,16.2526675 L16.5268156,18.2049636 C16.5268156,18.4634329 16.7363463,18.6729636 16.9948156,18.6729636 L22.1428156,18.6729636 C22.6597541,18.6729636 23.0788156,19.0920251 23.0788156,19.6089636 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 17.930816) rotate(-45.000000) translate(-18.866816, -17.930816) "></path>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(126.360000, 185.112000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.738947)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-86"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-86"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(24.880000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 3.941053) rotate(180.000000) translate(-0.000000, -3.941053) translate(-18.720000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(305.136000, 185.112000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.738947)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-87"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-87"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(24.880000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 3.941053) rotate(180.000000) translate(-0.000000, -3.941053) translate(-18.720000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(449.280000, 185.112000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.738947)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-88"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-88"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(24.880000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 3.941053) rotate(180.000000) translate(-0.000000, -3.941053) translate(-18.720000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(793.728000, 147.672000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, -0.738947)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-89"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-89"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(24.880000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 3.941053) rotate(180.000000) translate(-0.000000, -3.941053) translate(-18.720000, -14.778947)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(613.080000, 371.376000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-90"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-90"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(40.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(776.880000, 371.376000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-91"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-91"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(40.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="flowchart/icon/ok" transform="translate(784.368000, 362.016000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.872" fill="#45D400" fill-rule="evenodd" cx="18.72" cy="17.7081081" r="8.424"></circle>
+                <path d="M23.0788156,18.6397304 L23.0788156,18.6397304 C23.0788156,19.1566689 22.6597541,19.5757304 22.1428156,19.5757304 L15.5908156,19.5757304 C15.0738771,19.5757304 14.6548156,19.1566689 14.6548156,18.6397304 L14.6548156,15.2834343 C14.6548156,14.7664957 15.0738771,14.3474343 15.5908156,14.3474343 L15.5908156,14.3474343 C16.1077541,14.3474343 16.5268156,14.7664957 16.5268156,15.2834343 L16.5268156,17.2357304 C16.5268156,17.4941996 16.7363463,17.7037304 16.9948156,17.7037304 L22.1428156,17.7037304 C22.6597541,17.7037304 23.0788156,18.1227918 23.0788156,18.6397304 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.866816, 16.961582) rotate(-45.000000) translate(-18.866816, -16.961582) "></path>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓" transform="translate(499.824000, 560.448000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-92"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-92"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/endcurve1" transform="translate(55.600000, 240.600000) rotate(-270.000000) translate(-55.600000, -240.600000) translate(36.880000, 221.880000)">
+                    <rect id="Rectangle-23" fill="#FFFFFF" fill-rule="evenodd" x="14.04" y="14.04" width="6.552" height="6.552"></rect>
+                    <g id="Rectangle-22" transform="translate(16.380000, 16.380000) scale(1, -1) translate(-16.380000, -16.380000) ">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-93"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-93"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-" transform="translate(738.036000, 93.384000) scale(-1, -1) translate(-738.036000, -93.384000) translate(585.000000, 84.024000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(152.800000, 9.300000) scale(-1, -1) translate(-152.800000, -9.300000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-94"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-94"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(-90.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-↓-→-" transform="translate(490.464000, 120.996000) scale(1, -1) translate(-490.464000, -120.996000) translate(394.992000, 84.024000)">
+                <g id="F-L-O-W-/z/path/2-solid/original" transform="translate(95.300000, 36.800000) scale(-1, -1) translate(-95.300000, -36.800000) ">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-95"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-95"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(0.000000, 0.000000) rotate(-90.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→-↓" transform="translate(527.904000, 881.496000) scale(1, -1) translate(-527.904000, -881.496000) translate(499.824000, 801.936000)">
+                <g id="F-L-O-W-/z/path/2-solid/original">
+                    <g id="Path-6">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-96"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-96"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/endcurve1" transform="translate(55.600000, 158.600000) rotate(-270.000000) translate(-55.600000, -158.600000) translate(36.880000, 139.880000)">
+                    <rect id="Rectangle-23" fill="#FFFFFF" fill-rule="evenodd" x="14.04" y="14.04" width="6.552" height="6.552"></rect>
+                    <g id="Rectangle-22" transform="translate(16.380000, 16.380000) scale(1, -1) translate(-16.380000, -16.380000) ">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-97"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-97"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 0.000000) rotate(180.000000) translate(-0.000000, -0.000000) translate(-18.720000, -18.720000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+            <g id="F-L-O-W-/org/-→" transform="translate(499.824000, 791.640000)">
+                <g id="F-L-O-W-/z/path/1-solid/original" transform="translate(0.000000, 4.680000)">
+                    <g id="Path">
+                        <use stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="1.872" xlink:href="#path-98"></use>
+                        <use stroke="#FF0095" stroke-width="0.936" xlink:href="#path-98"></use>
+                    </g>
+                </g>
+                <g id="flowchart/icon/arrow" transform="translate(93.880000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <path d="M12.649568,13.9545408 L19.254311,17.9173866 C19.6975822,18.1833493 19.8413191,18.7582969 19.5753564,19.201568 C19.4963114,19.3333097 19.3860527,19.4435684 19.254311,19.5226134 L12.649568,23.4854592 C12.2062969,23.7514219 11.6313493,23.607685 11.3653866,23.1644138 C11.2781053,23.018945 11.232,22.8524901 11.232,22.6828458 L11.232,14.7571542 C11.232,14.2402157 11.6510615,13.8211542 12.168,13.8211542 C12.3376443,13.8211542 12.5040992,13.8672595 12.649568,13.9545408 Z" id="Oval"></path>
+                </g>
+                <g id="flowchart/icon/dot" transform="translate(0.000000, 9.360000) rotate(180.000000) translate(-0.000000, -9.360000) translate(-18.720000, -9.360000)" fill="#FF0095" fill-rule="evenodd">
+                    <circle id="Oval-4" opacity="0.200000003" cx="18.72" cy="18.72" r="8.424"></circle>
+                    <circle id="Oval" cx="18.72" cy="18.72" r="2.808"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
