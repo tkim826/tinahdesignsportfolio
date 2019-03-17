@@ -37,7 +37,7 @@ body {
   color: #7d7d7d;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 2;
-  font-size: 14px;
+  font-size: 14.5px;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -561,7 +561,7 @@ blockquote {
   font-weight: 700;
   color: #323232;
   outline: none;
-  font-size: 17.5px;
+  font-size: 15.5px;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
