@@ -37,7 +37,7 @@ body {
   color: #7d7d7d;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 2;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -561,7 +561,7 @@ blockquote {
   font-weight: 700;
   color: #323232;
   outline: none;
-  font-size: 14.5px;
+  font-size: 17.5px;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -620,6 +620,7 @@ blockquote {
   bottom: inherit;
   border-bottom: 1px solid #ebebeb;
 }
+
 ul.breadcrumb.main-nav.nav {
   padding-left: 10px;
   padding-right: 10px;
@@ -1407,7 +1408,25 @@ textarea.form-flat {
 .list-education li .number {
   position: absolute;
   font-style: italic;
-  right: -128px;
+  right: -364px;
+  left: inherit;
+  padding-bottom: 10px;
+  font-size: 70px;
+  top: 10px;
+  color: #ebebeb;
+  line-height: 70px;
+}
+
+.list-employment li:nth-child(odd) .number,
+.list-education li:nth-child(odd) .number.singleyear {
+  left: -184px;
+  right: inherit;
+}
+
+.list-education li .number.singleyear {
+  position: absolute;
+  font-style: italic;
+  right: -184px;
   left: inherit;
   padding-bottom: 10px;
   font-size: 70px;
@@ -1433,7 +1452,7 @@ textarea.form-flat {
 }
 .list-employment li:nth-child(odd) .number,
 .list-education li:nth-child(odd) .number {
-  left: -128px;
+  left: -364px;
   right: inherit;
 }
 .list-employment li:nth-child(odd) .desc,
@@ -1500,7 +1519,7 @@ textarea.form-flat {
 .tall .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 424px;
+  height: 474px;
   padding: 20px 5px 5px 5px;
   padding-bottom: 30px;
 }
@@ -1825,11 +1844,12 @@ textarea.form-flat {
 }
 
 .contrastsection {
-  background-color: #c81f49;
+  background-color: white;
   border-radius: 8px;
-  color: white;
+  color: #7d7d7d;
+  border: 1px #7d7d7d solid;
   font-size: 1.8em;
-  text-align: center;
+  text-align: ;
   padding: 3%;
 }
 @media (max-width: 768px) {
@@ -1839,7 +1859,8 @@ textarea.form-flat {
 }
 
 .contrastbackground {
-  background-color: #f15e25;
+  background-color: #ffffff;
+  border: 1px #7d7d7d solid;
   border-radius: 8px;
   text-align: center;
   color: white;
@@ -1856,14 +1877,13 @@ textarea.form-flat {
 .bubble p {
   max-width: 100%;
   background-color: none;
-  color: white;
+  color: #7d7d7d;
   border-radius: 8px;
-  line-height: 10px;
+  line-height: 17px;
   margin-top: -3.5em;
   font-size: 0.8em;
   font-weight: 400;
   padding-top: 0.8em;
-  text-shadow: 0px 0px 5px #000000;
 
   /* line-height: 10px; */
 }
