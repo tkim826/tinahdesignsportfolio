@@ -1423,6 +1423,11 @@ textarea.form-flat {
   right: inherit;
 }
 
+.list-employment li:nth-child(odd) .number.current {
+  left: -464px;
+  right: inherit;
+}
+
 .list-education li .number.singleyear {
   position: absolute;
   font-style: italic;
