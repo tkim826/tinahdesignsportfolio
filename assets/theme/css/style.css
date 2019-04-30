@@ -36,7 +36,7 @@ body {
   background: #ffffff;
   color: #7d7d7d;
   font-family: 'Josefin Sans', sans-serif;
-  line-height: 2;
+  line-height: 1.7;
   font-size: 14.5px;
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -79,7 +79,7 @@ h5 {
   font-size: 1.4em;
 }
 h6 {
-  font-size: 1;
+  font-size: 1.2;
 }
 h1,
 h2,
@@ -1417,28 +1417,6 @@ textarea.form-flat {
   line-height: 70px;
 }
 
-.list-employment li:nth-child(odd) .number,
-.list-education li:nth-child(odd) .number.singleyear {
-  left: -184px;
-  right: inherit;
-}
-
-.list-employment li:nth-child(odd) .number.current {
-  left: -464px;
-  right: inherit;
-}
-
-.list-education li .number.singleyear {
-  position: absolute;
-  font-style: italic;
-  right: -184px;
-  left: inherit;
-  padding-bottom: 10px;
-  font-size: 70px;
-  top: 10px;
-  color: #ebebeb;
-  line-height: 70px;
-}
 .list-employment li .desc,
 .list-education li .desc {
   padding: 20px;
@@ -1451,19 +1429,27 @@ textarea.form-flat {
   float: right;
   text-align: left;
 }
+
 .list-employment li:nth-child(odd) .ic,
 .list-education li:nth-child(odd) .ic {
   left: 0;
 }
+
 .list-employment li:nth-child(odd) .number,
 .list-education li:nth-child(odd) .number {
   left: -364px;
   right: inherit;
 }
+
 .list-employment li:nth-child(odd) .desc,
 .list-education li:nth-child(odd) .desc {
   padding-right: 0;
   padding-left: 60px;
+}
+
+.list-employment li:nth-child(odd) .number.current {
+  left: -464px;
+  right: inherit;
 }
 .list-employment:before,
 .list-education:before {
@@ -1474,6 +1460,30 @@ textarea.form-flat {
   height: 100%;
   width: 1px;
   background: #ebebeb;
+}
+
+.list-employment li:nth-child(odd) .number,
+.list-education li:nth-child(odd) .number.singleyear {
+  left: -184px;
+  right: inherit;
+}
+
+.list-education li .number.singleyearleft {
+  position: absolute;
+  font-style: italic;
+  right: -194px;
+  left: inherit;
+  padding-bottom: 10px;
+  font-size: 70px;
+  top: 10px;
+  color: #ebebeb;
+  line-height: 70px;
+}
+
+.list-employment li:nth-child(odd) .number,
+.list-education li:nth-child(odd) .number.timespan {
+  left: -364px;
+  right: inherit;
 }
 .indent {
   padding: 0 5%;
@@ -1517,14 +1527,20 @@ textarea.form-flat {
 .skill .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 215px;
+  height: 170px;
+  padding: 5px 5px 5px 5px;
+}
+.skill .boxmed {
+  text-align: center;
+  border: 1px solid transparent;
+  height: 185px;
   padding: 5px 5px 5px 5px;
 }
 
 .tall .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 474px;
+  height: 344px;
   padding: 20px 5px 5px 5px;
   padding-bottom: 30px;
 }
@@ -1777,14 +1793,14 @@ textarea.form-flat {
   padding: 0.5%;
   /* position: relative; */
 }
-@media (max-width: 2500px) {
+fas (max-width: 2500px) {
   .wireframe {
     min-height: 600px;
     max-height: 600px;
   }
 }
 
-@media (max-width: 1650px) {
+fas (max-width: 1650px) {
   .wireframe {
     min-height: 450px;
     max-height: 450px;
@@ -1853,8 +1869,8 @@ textarea.form-flat {
   border-radius: 8px;
   color: #7d7d7d;
   border: 1px #7d7d7d solid;
-  font-size: 1.8em;
-  text-align: ;
+  font-size: 1.3em;
+  text-align: center;
   padding: 3%;
 }
 @media (max-width: 768px) {
