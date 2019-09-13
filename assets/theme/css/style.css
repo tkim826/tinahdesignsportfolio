@@ -115,8 +115,16 @@ h6 {
 }
 .fullimage {
   text-align: center;
-  width: 90%;
+  width: 100%;
   padding: 3%;
+}
+
+@media (max-width: 414px) {
+  .fullimage {
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+  }
 }
 
 .svg {
@@ -126,8 +134,8 @@ h6 {
   height: auto;
 }
 .project-process {
-  max-width: 95%;
-  padding: 4em;
+  max-width: 100%;
+  padding: 2em;
   margin: auto;
 }
 .container-medium.wider {
@@ -1284,6 +1292,7 @@ textarea.form-flat {
     height: 300px;
   }
 }
+
 .my-profile .my-pict .overfly {
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
