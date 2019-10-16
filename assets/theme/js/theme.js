@@ -190,9 +190,9 @@
       strings: [
         'UX Designer',
         'UI Designer',
-
         'Fashion Designer',
-        'Curious and adaptable'
+        'Curious',
+        'Adaptable'
       ],
       // typing speed
       typeSpeed: 100,
