@@ -113,6 +113,9 @@ h6 {
   position: relative;
   z-index: 1;
 }
+.zindex100 {
+  z-index: 100;
+}
 .fullimage {
   text-align: center;
   width: 100%;
