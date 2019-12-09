@@ -1866,14 +1866,27 @@ fas (max-width: 1650px) {
 }
 .research-pic {
   max-width: 98%;
+  min-width: 98%;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 3em;
 }
 
+.research-pic-str {
+  text-align: center;
+  max-width: 95%;
+  min-width: 95%;
+  ;
+  margin-bottom: 1em;
+}
+
 img.ninetyeight {
   max-width: 98%;
   margin-bottom: 3em;
+}
+
+.htfifty {
+  Max-width:90%;
 }
 .box-border {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
