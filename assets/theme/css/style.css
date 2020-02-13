@@ -141,9 +141,18 @@ h6 {
 }
 .project-process {
   max-width: 100%;
-  padding: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   margin: auto;
 }
+
+.maxwidthsixty {
+  max-width: 60%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-right: auto;
+}
+
 .container-medium.wider {
   max-width: 95%;
 }
@@ -293,6 +302,10 @@ h6 {
 .icon-med {
   font-size: 20px;
 }
+#padding-10 {
+  padding-bottom: 10px;
+}
+
 blockquote {
   margin-bottom: 30px;
   font-size: 16px;
@@ -751,6 +764,22 @@ a:hover {
 }
 
 .btn-flat-solid.blue-btn Focus {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.btn-flat-solid.teal-btn {
+  color: #ffffff;
+  background-color: #0b98bc;
+  border-color: #0b98bc;
+}
+
+.btn-flat-solid.teal-btn:hover {
+  color: #0b98bc;
+  background-color: #ffffff;
+}
+
+.btn-flat-solid.teal-btn Focus {
   color: #ffffff;
   background-color: #000000;
 }
@@ -1991,6 +2020,15 @@ img.ninetyeight {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
+
+.post-blue {
+  font-size: 16px;
+  border-bottom: 1px solid #4f7ec9;
+  padding-bottom: 10px;
+  margin-bottom: 45px;
+  margin-left: 30px;
+}
+
 .post-meta-pad-bottom {
   font-size: 16px;
   border-bottom: 1px solid #ebebeb;
