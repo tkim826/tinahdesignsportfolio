@@ -658,6 +658,15 @@ a:hover {
   transform: translateY(-3px);
 }
 
+#blue a {
+  margin: auto;
+  display: inline-block;
+  text-decoration: underline;
+  color: #4f7ec9;
+  padding-bottom: 30px;
+  font-size: 1.3em;
+}
+
 @media (min-width: 1030px) {
   .menu-area .menu-collapse.collapse {
     display: block;
