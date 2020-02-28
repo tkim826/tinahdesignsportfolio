@@ -59,7 +59,7 @@
         <div class="v-content">
           <div class="container">
             <h1 class="text-uppercase color-dark name">Tina Hong</h1>
-            <p class=" font-alt job">
+            <p class=" font-alt job slowreveal">
 Hi! I'm Tina, a UX designer that loves to solve problems through user-centered research and design. I am currenly getting attending UC Irvine for my Master's in Human-Computer Interaction and Design. When I'm not picking up a new skill, I love to craft, cook, and listen to country music. 
               <span id="typed" class="typed"></span>
             </h4>
@@ -856,6 +856,13 @@ costs and higher profit margins.</b>
       distance: '0px',
       opacity: 0,
       duration: 1500,
+      viewFactor: .5
+    });
+
+    ScrollReveal().reveal('.slowreveal', {
+      distance: '0px',
+      opacity: 0,
+      duration: 9000,
       viewFactor: .5
     });
 
