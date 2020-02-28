@@ -194,6 +194,7 @@ h6 {
   margin-bottom: 0;
   float: none;
 }
+
 .no-margin-top {
   margin-top: 0;
 }
@@ -344,7 +345,7 @@ blockquote {
   font-weight: 300;
 }
 .font-alt {
-  font-family: "Cardo", serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .br-right {
   border-right: 1px solid #ebebeb !important;
@@ -710,7 +711,7 @@ a:hover {
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
   border-radius: 0 !important;
-  font-family: "Open Sans";
+  font-family: "Josefin Sans", sans-serif;
   transition: all 0.8s ease 0s;
   -webkit-transition: all 0.8s ease 0s;
   -moz-transition: all 0.8s ease 0s;
@@ -828,7 +829,7 @@ a:hover {
   min-width: 35px;
 }
 .btn-flat-line {
-  font-family: "Open Sans";
+  font-family: "Josefin Sans", sans-serif;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
@@ -983,7 +984,7 @@ a:hover {
   -o-border-radius: 0 !important;
   border-radius: 0 !important;
   height: 45px;
-  font-family: "Open Sans";
+  font-family: "Josefin Sans", sans-serif;
   border-color: #ebebeb;
 }
 .form-control.form-flat.input-lg {
@@ -1331,6 +1332,7 @@ textarea.form-flat {
   position: relative;
   display: inline-block;
   z-index: 3;
+  text-align: left;
 
   padding: 10px;
   letter-spacing: 4px;
