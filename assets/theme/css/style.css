@@ -161,6 +161,13 @@ h6 {
 }
 .image-center {
   display: block;
+  text-align: center;
+}
+.image-center90 {
+  width: 90%;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 .container-mini {
   padding-right: 15px;
@@ -598,6 +605,9 @@ blockquote {
   text-decoration: none;
   text-transform: uppercase;
 }
+.link-inpage {
+  color: #7d7d7d;
+}
 .menu-area .main-nav > li > a:hover {
   color: #000000;
   outline: none;
@@ -618,7 +628,7 @@ blockquote {
   text-decoration: none;
   background: transparent;
   transform: translateY(-3px);
-  color: #0000;
+  color: #000000;
 }
 .menu-area .main-nav.no-space > li + li:before {
   content: "";
@@ -628,6 +638,9 @@ blockquote {
   background: #ffffff;
 }
 .menu-area.nav-white-bg .main-nav > li > a {
+  color: #7d7d7d;
+}
+.menu-area.nav-white-bg .main-nav > li > a:visited {
   color: #7d7d7d;
 }
 .menu-area.nav-white-bg .main-nav > li > a:hover {
@@ -689,9 +702,9 @@ a:hover {
   .menu-area .main-nav > li.active > a {
     color: #000000;
   }
-  .menu-area .main-nav > li + li:before {
+  /* .menu-area .main-nav > li + li:before {
     color: #ebebeb;
-  }
+  } */
   .menu-area .toogle-bars {
     display: block;
   }
@@ -947,6 +960,7 @@ a:hover {
 .textalign-center {
   text-align: center;
 }
+
 .box-btn-more {
   position: relative;
   padding: 20px 0;
