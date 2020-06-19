@@ -1,8 +1,8 @@
-(function($) {
+(function ($) {
   "use strict";
 
   //Run function When Document Ready
-  $(document).ready(function() {
+  $(document).ready(function () {
     initTooltip();
     initGetHWindow();
     initParallax();
@@ -20,10 +20,12 @@
   });
 
   //Run function When PACE (page loader) hide
-  Pace.on("hide", function() {
+  Pace.on("hide", function () {
     $(".wrapper")
       .css("visibility", "visible")
-      .animate({ opacity: 1.0 }, 2000, function() {
+      .animate({
+        opacity: 1.0
+      }, 2000, function () {
         initCheckNav();
       });
     //check if url contain hash(#)
@@ -35,7 +37,7 @@
   });
 
   //Run function When WIndow Resize
-  $(window).resize(function() {
+  $(window).resize(function () {
     initParallax();
   });
 
@@ -43,7 +45,7 @@
   function initAjaxContactForm() {
     if ($("#contactForm, #hireForm").length > 0) {
       $("#contactForm, #hireForm").validate();
-      $("#contactForm, #hireForm").submit(function() {
+      $("#contactForm, #hireForm").submit(function () {
         var el = $(this);
         if (el.valid()) {
           var params = $(this).serialize();
@@ -51,13 +53,13 @@
             type: "POST",
             data: params,
             url: "php/sending_mail.php",
-            beforeSend: function() {
+            beforeSend: function () {
               el.find(".preload-submit").removeClass("hidden");
               el.find(".message-submit").addClass("hidden");
             },
-            success: function(res) {
+            success: function (res) {
               res = jQuery.parseJSON(res);
-              setTimeout(function() {
+              setTimeout(function () {
                 el.find(".preload-submit").addClass("hidden");
                 if (res.error === null) {
                   el.trigger("reset");
@@ -89,8 +91,7 @@
       var uploader = new ss.SimpleUpload({
         button: btn,
         url: "php/upload.php",
-        progressUrl:
-          "assets/plugins/Simple-Ajax-Uploader/extras/uploadProgress.php",
+        progressUrl: "assets/plugins/Simple-Ajax-Uploader/extras/uploadProgress.php",
         name: "fileatt",
         multiple: false,
         maxUploads: 2,
@@ -102,7 +103,7 @@
         focusClass: "active",
         disabledClass: "disabled",
         responseType: "json",
-        onSubmit: function(filename, ext) {
+        onSubmit: function (filename, ext) {
           var prog = document.createElement("div"),
             outer = document.createElement("div"),
             bar = document.createElement("div"),
@@ -124,13 +125,13 @@
 
           errBox.innerHTML = "";
         },
-        onSizeError: function(filename, fileSize) {
+        onSizeError: function (filename, fileSize) {
           errBox.innerHTML = "Max size 200K";
         },
-        onExtError: function(filename, extension) {
+        onExtError: function (filename, extension) {
           errBox.innerHTML = "File extension not permitted";
         },
-        onError: function(
+        onError: function (
           filename,
           errorType,
           status,
@@ -140,7 +141,7 @@
         ) {
           errBox.innerHTML = statusText;
         },
-        onComplete: function(file, response) {
+        onComplete: function (file, response) {
           if (!response) {
             errBox.innerHTML = "Unable to upload file";
           }
@@ -167,14 +168,14 @@
       scriptPath: "assets/plugins/simpleCaptcha/simpleCaptcha.php"
     });
 
-    $("#mycaptcha").bind("ready.simpleCaptcha", function(hashSelected) {
+    $("#mycaptcha").bind("ready.simpleCaptcha", function (hashSelected) {
       $("#captcha1,#captcha2")
         .html($("#mycaptcha-wrap").html())
         .find(".mycaptcha1")
         .removeAttr("id");
       $("#captcha1,#captcha2")
         .find(".captchaImages img.captchaImage")
-        .click(function() {
+        .click(function () {
           $("#captcha1,#captcha2")
             .find(".captchaImages img.captchaImage")
             .removeClass("simpleCaptchaSelected");
@@ -186,14 +187,14 @@
 
   //Typed Animation
   function initTyped() {
-    $("").typed({
-      strings: [],
+    $('#typed').typed({
+      strings: ['Tina.', 'always inspired..', 'collaborative..', 'a learner..', 'a thinker..', 'a UX designer..'],
       // typing speed
-      typeSpeed: 50,
+      typeSpeed: 100,
       // time before typing starts
       startDelay: 100,
       // backspacing speed
-      backSpeed: 10,
+      backSpeed: 35,
       // time before backspacing
       backDelay: 1000,
       // loop
@@ -203,19 +204,19 @@
       // show cursor
       showCursor: true,
       // character for cursor
-      cursorChar: ".",
+      cursorChar: '.',
       // attribute to type (null == text)
       attr: null,
       // either html or text
-      contentType: "html",
+      contentType: 'html',
       // call when done callback function
-      callback: function() {},
+      callback: function () {},
       // starting callback function before each string
-      preStringTyped: function() {},
+      preStringTyped: function () {},
       //callback for every typed string
-      onStringTyped: function() {},
+      onStringTyped: function () {},
       // callback for reset
-      resetCallback: function() {}
+      resetCallback: function () {}
     });
   }
 
@@ -233,7 +234,7 @@
       },
       image: {
         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-        titleSrc: function(item) {
+        titleSrc: function (item) {
           return item.el.attr("title");
         }
       }
@@ -254,7 +255,7 @@
     $(".chart").easyPieChart({
       easing: "easeOutBounce",
       barColor: "#000",
-      onStep: function(from, to, percent) {
+      onStep: function (from, to, percent) {
         $(this.el)
           .find(".percent")
           .text(Math.round(percent));
@@ -264,45 +265,42 @@
 
   //Click Envents
   function initClickedEvents() {
-    $("#hireme-tab").click(function() {
+    $("#hireme-tab").click(function () {
       $('#myTab a[href="#tab1"]').tab("show");
     });
 
-    $("#contact-tab").click(function() {
+    $("#contact-tab").click(function () {
       $('#myTab a[href="#tab0"]').tab("show");
     });
 
-    $(".map-area").click(function() {
+    $(".map-area").click(function () {
       $(this).addClass("show");
     });
 
-    $(".back-to-top").click(function() {
+    $(".back-to-top").click(function () {
       $("html, body")
         .stop()
-        .animate(
-          {
+        .animate({
             scrollTop: 0
           },
           1500,
           "easeInOutExpo",
-          function() {}
+          function () {}
         );
       return false;
     });
 
-    $(".link-inpage").click(function(e) {
+    $(".link-inpage").click(function (e) {
       var target = this.hash,
         $target = $(target);
       $("html, body")
         .stop()
-        .animate(
-          {
-            scrollTop:
-              $target.offset().top - ($(".menu-area").outerHeight() - 1)
+        .animate({
+            scrollTop: $target.offset().top - ($(".menu-area").outerHeight() - 1)
           },
           1500,
           "easeInOutExpo",
-          function() {
+          function () {
             //window.location.hash = target;
           }
         );
@@ -315,7 +313,7 @@
     if ($(".main-header").length > 0) {
       var mainbottom =
         $(".main-header").offset().top + $(".main-header").height();
-      $(window).on("scroll", function() {
+      $(window).on("scroll", function () {
         var stopWindow =
           Math.round($(window).scrollTop()) + $(".menu-area").outerHeight();
         conditionNavbar(stopWindow, mainbottom);
@@ -348,7 +346,7 @@
 
   //Bg Parallax
   function initParallax() {
-    $(".parallax-bg").each(function() {
+    $(".parallax-bg").each(function () {
       $(this).parallax("50%", 0.3);
     });
   }
@@ -368,16 +366,15 @@
       zoom: 15,
       scrollwheel: false,
       disableDefaultUI: false,
-      callback: function() {
+      callback: function () {
         var self = this;
         self
           .addMarker({
             position: this.get("map").getCenter(),
             icon: "assets/theme/images/marker.png"
           })
-          .click(function() {
-            self.openInfoWindow(
-              {
+          .click(function () {
+            self.openInfoWindow({
                 content: $(".map-contact-body").html()
               },
               this
@@ -388,11 +385,11 @@
   }
 
   function initHold() {
-    $("[data-holdwidth]").each(function(index, el) {
+    $("[data-holdwidth]").each(function (index, el) {
       var width = $(el).data("holdwidth");
       $(el).css("width", width);
     });
-    $("[data-holdbg]").each(function(index, el) {
+    $("[data-holdbg]").each(function (index, el) {
       var bg = $(el).data("holdbg");
       $(el).css("background-image", "url(" + bg + ")");
     });
@@ -405,20 +402,20 @@
 
   //Tigger Custom Btn FIle
   function initBtnFile() {
-    $(document).on("change", ".btn-file :file", function() {
+    $(document).on("change", ".btn-file :file", function () {
       var input = $(this),
         numFiles = input.get(0).files ? input.get(0).files.length : 1,
         label = input
-          .val()
-          .replace(/\\/g, "/")
-          .replace(/.*\//, "");
+        .val()
+        .replace(/\\/g, "/")
+        .replace(/.*\//, "");
       input.trigger("fileselect", [numFiles, label]);
     });
 
-    $(".btn-file :file").on("fileselect", function(event, numFiles, label) {
+    $(".btn-file :file").on("fileselect", function (event, numFiles, label) {
       var input = $(this)
-          .parents(".input-group")
-          .find(":text"),
+        .parents(".input-group")
+        .find(":text"),
         log = numFiles > 1 ? numFiles + " files selected" : label;
       if (input.length) {
         input.val(log);
