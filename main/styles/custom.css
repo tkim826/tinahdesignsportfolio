@@ -1,0 +1,45 @@
+/* This stylesheet is meant for custom styles, on top of The Ben Template */
+#care a {
+  color: #ffffff;
+  background-color: #6BC7B8;
+
+}
+
+.small-text {
+  font-size: 1em;
+}
+
+.x-small-text {
+  font-size: 0.75em;
+
+}
+
+.black {
+  color: black !important;
+
+}
+
+.maxwidthninefive {
+  max-width: 95%;
+  margin-left: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.movie {
+  max-width: 100%;
+}
+
+.margin-l-r {
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+#hub a {
+  color: #ffffff;
+  background-color: #517dd5;
+  text-decoration: none;
+
+
+}

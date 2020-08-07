@@ -1,0 +1,156 @@
+</DOCTYPE HTML>
+<html>
+  <head>
+    <title>Font Sample</title>
+    <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <style>
+      .cursive{
+        font-family: 'Allura', cursive;
+      font-size: 300%;
+     color: grey;
+     text-align: center;
+     
+      }
+      .handwriting {font-family: 'Rock Salt', cursive;
+      font-size: 100%;
+      color: #4c4b4d;
+      }
+      .type {
+      font-family: 'Rock Salt', cursive;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 100%;
+      color: #7d5165;
+      letter-spacing:1.1px;
+      }
+
+      .container .row p{
+        border:  5px solid #4c4b4d;
+        padding: 20px;
+      }
+
+      .container-fluid .row p.cursive {
+        border:  5px solid #4c4b4d;
+        background-color:rgb(243, 241, 241);
+        padding: 20px;
+      }
+
+      .container-fluid .row p.handwriting{
+        border:  5px solid #6729a5;
+        padding: 20px;
+      }
+
+    .bg-bluecenter{
+        border: 1px solid black;
+        text-align: center;
+        padding: 25%;
+        background-size: cover;
+        background-image: url(https://source.unsplash.com/lRcoPGrwkv0/1600x900);
+        
+      }
+  </style>
+  </head>
+  
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p class="cursive">Practicing columns using Bootstrap: Here is a fluid container.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="type">
+      The container is not fluid so it does not go to the edge of the page- unless the viewport is extra small. The container is not fluid so it does not go to the edge of the page- unless the viewport is extra small.. The container is not fluid so it does not go to the edge of the page- unless the viewport is extra small. The container is not fluid so it does not go to the edge of the page- unless the viewport is extra small.
+        </p>
+       
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-sm-12 col-med-6 col-lg-6 col-12">
+        <p class="type">here is a row of two columns. It will become a single column when the viewport is smaller.</p>
+      </div>
+      <div class="col-6 col-sm-12 col-med-6 col-lg-6 col-12">
+        <p class="type">here is a row of two columns. It will become a single column when the viewport is smaller.</p>
+      </div>
+      </div>
+
+   
+    <div class="row handwriting">
+      <div class="col-sm-4 col-med-4 col-12 col-lg-4">
+        <p class="">this is a row of three columns, unless the viewportscreen is extra small- in which case there will be three rows of one single column.</p>
+      </div>
+
+      <div class="col-sm-4 col-med-4 col-12 col-lg-4">
+        <p class="">this is a row of three columns, unless the viewportscreen is extra small- in which case there will be three rows of one single column.</p>
+      </div>
+
+      <div class="col-sm-4 col-med-4 col-12 col-lg-4">
+        <p class="">this is a row of three columns, unless the viewportscreen is extra small- in which case there will be three rows of one single column.</p>
+      </div>
+    </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 col-med-4 col-12 col-lg-4">
+          <p class="handwriting">I think I like the way fluid containers work better than "regular" containers. They seem more consistent since they are always in proportion to any viewport size.</p>
+        </div>
+
+        <div class="col-sm-4 col-med-4 col-12 col-lg-4">
+          <p class="handwriting">I think I like the way fluid containers work better than "regular" containers. They seem more consistent since they are always in proportion to any viewport size.</p>
+        </div>
+
+        <div class="col-sm-4 col-med-4 col-12 col-lg-4">
+          <p class="handwriting">I think I like the way fluid containers work better than "regular" containers. They seem more consistent since they are always in proportion to any viewport size.</p>
+        </div>
+      </div>
+    </div>
+  <div class="container-fluid bg-bluecenter type">
+    <div class="row">
+      <div class="col-12">
+
+          <a href="index.html" button type="button" class="btn btn-primary">Go to homepage</button></a>
+        
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
+<p class="handwriting">My actual handwriting looks more like this. I like to write in all caps, but when I'm in a hurry, I tend to mix messy cursive with this type of writing. Caps take long to write in becuase the letters consist of short lines. You have to constantly draw a line and pick up your pencil to draw another one- which wastes time.</p></body>
+<p class="type">
+  This is a nice and simple font to read. It's easy on the eyes and unnoticable, which is good when I am reading something with important content. 
+  <button type="button" class="btn btn-secondary">Secondary</button>
+</p>
+
+At least three rows with responsive columns.  At least one of the rows should stack when the browser window width shrinks.
+At least one button as described on Documentation -> Components.
+At least one responsive image.
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
